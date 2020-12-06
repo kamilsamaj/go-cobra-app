@@ -19,10 +19,6 @@ jobs:
                   go get -u golang.org/x/lint/golint
                   go get -u github.com/mitchellh/gox
 
-            - name: Install make
-              run: |
-                  sudo apt install -y make
-
             # Run vet & lint on the code
             - name: Run vet & lint
               run: |

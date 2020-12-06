@@ -16,7 +16,7 @@ default: all
 all: build
 
 build:
-	gox \
+	CGO_ENABLED=0 gox \
 		-os=$(XC_OS) \
 		-arch=$(XC_ARCH) \
 		-parallel=$(XC_PARALLEL) \

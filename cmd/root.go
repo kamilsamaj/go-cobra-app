@@ -1,4 +1,6 @@
 /*
+Package cmd is the main CLI command handler
+
 Copyright © 2020 Kamil Samaj <kamilsamaj@gmail.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,8 +19,9 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/spf13/cobra"
 	"os"
+
+	"github.com/spf13/cobra"
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"

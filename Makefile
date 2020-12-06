@@ -20,5 +20,5 @@ build:
 		-os=$(XC_OS) \
 		-arch=$(XC_ARCH) \
 		-parallel=$(XC_PARALLEL) \
-		-output=$(BIN)/{{.Dir}}_{{.OS}}_{{.Arch}} \
+		-output=$(BIN)/{{.Dir}}-{{.OS}}-{{.Arch}} \
 		;
